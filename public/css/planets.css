@@ -1,0 +1,199 @@
+body, #slider, .wrap, .slide-content{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  width: 100%;
+  height: 60vh;
+  overflow-x: hidden;
+  line-height: 1.6em;
+}
+
+.BackgroundContainer{
+  background-color: #181818;
+  min-height: 1800px
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+  margin-left: 590px;
+  overflow: hidden;
+}
+
+.containerTwo{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  margin-left: 200px;
+  overflow: hidden;
+}
+
+.BackgroundContainer .Exoplanets .container h1{
+  color: white;
+}
+
+.BackgroundContainer .Exoplanets .container p{
+  color: white;
+}
+
+.BackgroundContainer .Exoplanets .board{
+  width: 29.33%;
+  background: #E0E0E0;
+  color: black;
+  float: left;
+  height: 300px;
+  margin: 2%;
+  padding: 1%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 1px 2px 10px 1px grey;
+}
+
+.ExoImages .Innerboard{
+  width: 40%;
+  background: #181818;
+  color: white;
+  float: right;
+  height: 300px;
+  margin-left: 2%;
+  margin-bottom: %;
+  margin-right: 20%;
+  padding: 1%;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.BackgroundContainer h3{
+  font-size: 25px;
+  padding-left: 2%;
+  color: white;
+}
+
+#TopBorder{
+  background-color: #202020;
+  color: #fff;
+}
+
+#TopBorder h1{
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.wrap{
+  position: relative;
+}
+
+#slide{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1{
+  background-image: url('../images/mercury.png');
+  background-color: black;
+  background-repeat: no-repeat;
+  padding-left: 950px;
+  background-color: none;
+}
+
+.slide2{
+  background-image: url('../images/earth.jpg');
+}
+
+.slide3{
+  background-image: url('../images/venus.png');
+}
+
+.slide-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span{
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left{
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right{
+  border-width: 30px 0px 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
+                            /* Style for Blurred Images */
+.textWithBlurredBg{
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 4px;
+  margin-top: 4px;
+  position: relative;
+  margin-right: 5%;
+}
+
+.ExoImages img{
+  width: 30%;
+  height: 50%;
+  border-radius: 4px;
+}
+
+.textWithBlurredBg img{
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  transition: .3s;
+  padding-bottom: 5%;
+}
+
+.textWithBlurredBg:hover img{
+  filter: blur(2px) brightness(60%);
+  box-shadow: 0 0 16px white;
+}
+
+.textWithBlurredBg :not(img){
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  transition: .3s;
+}
+
+.textWithBlurredBg h3{
+  top: 50%;
+}
+
+.textWithBlurredBg:hover :not(img){
+  opacity: 1;
+}
+
+#main-footer{
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

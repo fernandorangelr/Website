@@ -1,0 +1,40 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Web Technologies Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ba18276/Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ba18276/Website/issues"
+  },
+  "homepage": "https://github.com/ba18276/Website#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parse": "^0.4.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "express-validator": "^5.3.1",
+    "file-system": "^2.2.2",
+    "helmet": "^3.18.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "pg": "^7.11.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sequelize": "^5.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

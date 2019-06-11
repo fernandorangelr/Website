@@ -1,0 +1,233 @@
+body{
+  background-color: black;
+  color: #B8B8B8;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60vh;
+  overflow-x: hidden;
+}
+
+h1{
+  padding-left: 500px;
+  color: grey;
+}
+
+.DeepSpaceOne{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.DeepSpaceTwo{
+  width: 100%;
+  height: 110vh;
+  background-image: url('../images/deepspace.jpeg');
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+#title span{
+  padding-top: 2%;
+  font-size: 55px; /* rem is a relative unit -> 5x the size of the core HTML element which by default is 16px */
+  color: black;
+}
+
+.Info{
+  background-color: black;
+  min-height: 1600px;
+  border: none;
+  padding-left: 3%;
+}
+
+.Info h2, ol, li, h3{
+  color: white;
+}
+
+.Info h2{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  margin-left: 400px;
+  overflow: hidden;
+
+}
+
+.containerTitle{
+  width: 50%;
+  margin: 0;
+  margin-top: 4%;
+  margin-left: 6%;
+  overflow: hidden;
+}
+
+.containerTitle h1{
+  margin: 5px;
+  border: 0;
+  padding: 0;
+  color: white;
+  font-size: 40px;
+}
+
+.About .container p{
+  color: white;
+}
+
+.Info .StarPara {
+  color: white;
+}
+
+.StarPara{
+  width: 90%;
+  margin-left: 6.2%;
+  margin-top: 1%;
+  overflow: hidden;
+}
+
+.Board{
+  background: black;
+  height: 400px;
+  width: 95%;
+  float: left;
+  border-radius: 15px;
+  margin-left: 6%;
+}
+
+.Board .service{
+  width: 27%;
+  background: black;
+  color: white;
+  float: left;
+  height: 370px;
+  margin: 2%;
+  padding: 1%;
+  margin-right: 3.5%;
+  box-sizing: border-box;
+}
+
+.StarPara2{
+  width: 20%;
+  margin-left: 6.2%;
+  margin-top: 1%;
+  background-color: black;
+}
+
+.SecondSection{
+  background-color: #f8f8f8;
+  min-height: 600px;
+  border: 0;
+  padding-left: 3%;
+  margin: 0;
+}
+
+.SecondSection h2, ol, li, h3{
+  color: white;
+}
+
+.SecondSection h2{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.FirstImage img{
+  float: right;
+  margin: 1%;
+  margin-right: 4.5%;
+  margin-top: 2%;
+}
+
+.SecondSection .container h2, .SecondSection .container p{
+  color: black;
+}
+
+.SecondSection .container h3{
+  color: black;
+}
+
+.SecondSectionTwo{
+  background-color: #f8f8f8;
+  min-height: 1200px;
+  border: 0;
+  padding-left: 3%;
+  margin: 0;
+}
+
+.SecondSectionTwo .container h2{
+  color: black;
+}
+
+.SecondSectionTwo .container p{
+  color: black;
+}
+
+.SecondSectionTwo .container h3{
+  color: black;
+}
+
+.ContainerTwo{
+  width: 50%;
+  margin: auto;
+  margin-left: 400px;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.ContainerTwo p{
+  color: black;
+}
+
+.ContainerTwo h2{
+  color: black;
+  padding-top: 4%;
+}
+
+.ContainerTwo h3{
+  color: black;
+  padding-top: 3%;
+}
+
+.ContainerThree{
+  width: 50%;
+  margin: auto;
+  margin-left: 400px;
+  overflow: hidden;
+  margin-top: 2%;
+}
+
+.SecondSectionThree{
+  background-color: #f8f8f8;
+  min-height: 1800px;
+  border: 0;
+  padding-left: 3%;
+  margin: 0;
+}
+
+.SecondSectionThree .container h2{
+  color: black;
+}
+
+.SecondSectionThree .container p{
+  color: black;
+}
+
+.SecondSectionThree .container h3{
+  color: black;
+}
+
+.SecondSectionThree img{
+  margin-left: 20.5%;
+  margin-top: 2%;
+}
